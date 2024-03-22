@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CalculoArea/CalculoArea.iml" filepath="$PROJECT_DIR$/CalculoArea/CalculoArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Colleg_Polymorphism.iml" filepath="$PROJECT_DIR$/.idea/Colleg_Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Veiculos/Veiculos.iml" filepath="$PROJECT_DIR$/Veiculos/Veiculos.iml" />
     </modules>
