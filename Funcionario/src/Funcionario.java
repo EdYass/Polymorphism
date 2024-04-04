@@ -2,7 +2,6 @@ public abstract class Funcionario {
     private String nome;
     private int idade;
     private double salario;
-
     private double bonus;
 
     public Funcionario(String nome, int idade, double salario,double bonus) {
