@@ -19,8 +19,4 @@ public class Caminhao extends Veiculos{
         }
     }
 
-    @Override
-    public void acelerar() {
-        super.acelerar();
-    }
 }
