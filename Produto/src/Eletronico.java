@@ -25,8 +25,8 @@ public class Eletronico extends Produto{
     public void calcularDesconto() {
         Scanner teclado = new Scanner(System.in);
         System.out.printf("Digite o desconto recebido(em procentagem): ");
-        this.setDeconto(teclado.nextDouble());
-        double novoP = (super.getPreco()*(1-(this.getDeconto()/100)));
-        System.out.println("Novo preço com o desconto de "+this.getDeconto()+"%%: "+novoP);
+        this.setDesconto(teclado.nextDouble());
+        double novoP = (super.getPreco()*(1-(this.getDesconto()/100)));
+        System.out.println("Novo preço com o desconto de "+this.getDesconto()+"%%: "+novoP);
     }
 }

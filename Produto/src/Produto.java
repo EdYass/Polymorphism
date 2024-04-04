@@ -15,8 +15,8 @@ public abstract class Produto {
     public float getPreco() {return preco;}
     public void setPreco(float preco) {this.preco = preco;}
 
-    public double getDeconto() {return desconto;}
-    public void setDeconto(double deconto) {this.desconto = deconto;}
+    public double getDesconto() {return desconto;}
+    public void setDesconto(double deconto) {this.desconto = deconto;}
 
     public abstract void coletarDados();
 
