@@ -16,8 +16,4 @@ public class Moto extends Veiculos{
         System.out.println("Cilindradas: "+cilindrada+"cc");
     }
 
-    @Override
-    public void acelerar() {
-        super.acelerar();
-    }
 }

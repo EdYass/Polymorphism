@@ -38,9 +38,7 @@ public class Veiculos implements Metodos{
     }
 
     @Override
-    public void acelerar(){
-        System.out.println("O carro "+this.modelo+" está acelerando.");
-    }
+    public void acelerar(){System.out.println("O carro "+this.modelo+" está acelerando.");}
     @Override
     public void acelerar(int veiculo) {
         if (veiculo == 1){

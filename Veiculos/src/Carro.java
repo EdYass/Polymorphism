@@ -11,7 +11,8 @@ public class Carro extends Veiculos{
     }
 
     @Override
-    public void acelerar() {
-       super.acelerar();
+    public void acelerar(){
+        super.acelerar();
+        System.out.println("O carro está a 200 km/h");
     }
 }
